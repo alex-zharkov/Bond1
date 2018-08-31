@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="container.js"></script>
+    <script src="menu.js"></script>
+    <script src="menuItem.js"></script>
+</head>
+<body>
+
+<script>
+  window.onload = function () {
+
+    var menu = new Menu('menu','menu', [
+      new MenuItem('#','Home'),
+      new MenuItem('#','News'),
+      new MenuItem('#','Sport'),
+      new MenuItem('#','Weather')
+    ]);
+
+    document.body.appendChild(menu.render());
+
+    document.querySelector('button').onclick = function () {
+      menu.remove();
+    }
+  };
+</script>
+
+<button>Удалить</button>
+
+</body>
+</html>
