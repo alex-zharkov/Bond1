@@ -8,13 +8,14 @@ Menu.prototype.render = function () {
   var ul = document.createElement('ul');
   ul.className = this.class;
   ul.id = this.id;
+  var li = document.createElement('li');
 
   this.items.forEach(function (item) {
     if (item instanceof Container) {
       ul.appendChild(item.render());
     }
     if (item instanceof Submenu){
-      
+      li.appendChild(item.render());
     }
   });
   return ul;

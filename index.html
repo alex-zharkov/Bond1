@@ -6,17 +6,25 @@
     <script src="container.js"></script>
     <script src="menu.js"></script>
     <script src="menuItem.js"></script>
+    <script src="submenu.js"></script>
 </head>
 <body>
 
 <script>
   window.onload = function () {
 
-    var menu = new Menu('menu','menu', [
-      new MenuItem('#','Home'),
-      new MenuItem('#','News'),
-      new MenuItem('#','Sport'),
-      new MenuItem('#','Weather')
+    var menu = new Menu('menu', 'menu', [
+      new MenuItem('#', 'Home'),
+      new MenuItem('#', 'News'),
+      new MenuItem('#', 'Sport'),
+      new MenuItem('#', 'Weather'),
+      new SubMenu('sub', 'sub', [
+        new MenuItem('#', 'Moscow'),
+        new MenuItem('#', 'SPB'),
+        new MenuItem('#', 'Voronezh')
+      ]),
+      new MenuItem('#', 'Contacts'),
+      new MenuItem('#', 'Blog')
     ]);
 
     document.body.appendChild(menu.render());
@@ -28,18 +36,6 @@
 </script>
 
 <button>Удалить</button>
-
-
-<ul>
-    <li><a href="" class="link"></a></li>
-    <li><a href="" class="link"></a></li>
-    <li><a href="" class="link"></a></li>
-    <li><a href="" class="link"></a></li>
-    <li><a href="" class="link"></a></li>
-    <li><a href="" class="link"></a></li>
-    <li><a href="" class="link"></a></li>
-    <li><a href="" class="link"></a></li>
-</ul>
 
 </body>
 </html>
