@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="770beb14-9dc4-4088-b332-14bd7c078b82" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/menu.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,8 +34,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+            <state relative-caret-position="231">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -44,8 +43,8 @@
       <file leaf-file-name="menu.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/menu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="579">
+              <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -53,8 +52,8 @@
       <file leaf-file-name="submenu.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/submenu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" column="26" selection-start-line="3" selection-start-column="1" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="29">
+              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -92,8 +91,8 @@
         <option value="$PROJECT_DIR$/Bond_test/index.html" />
         <option value="$PROJECT_DIR$/script.js" />
         <option value="$PROJECT_DIR$/container.js" />
-        <option value="$PROJECT_DIR$/menu.js" />
         <option value="$PROJECT_DIR$/submenu.js" />
+        <option value="$PROJECT_DIR$/menu.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -178,12 +177,27 @@
       <workItem from="1535561897507" duration="3845000" />
       <workItem from="1535575028788" duration="1435000" />
       <workItem from="1535577462123" duration="12717000" />
-      <workItem from="1535702465302" duration="1072000" />
+      <workItem from="1535702465302" duration="2095000" />
     </task>
+    <task id="LOCAL-00001" summary="alex aaa">
+      <created>1535703649285</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535703649286</updated>
+    </task>
+    <task id="LOCAL-00002" summary="alex aaa">
+      <created>1535721848850</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1535721848850</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19069000" />
+    <option name="totallyTimeSpent" value="20092000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -196,14 +210,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32965517" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.50080776" side_tool="true" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50080776" side_tool="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49919224" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.24474959" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979424" visible="true" weight="0.24474959" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32956383" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -259,6 +274,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="alex aaa" />
+    <option name="LAST_COMMIT_MESSAGE" value="alex aaa" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -325,8 +344,8 @@
     <entry file="file://$PROJECT_DIR$/script.js" />
     <entry file="file://$PROJECT_DIR$/submenu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="26" selection-start-line="3" selection-start-column="1" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="29">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -339,15 +358,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/menu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="579">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        <state relative-caret-position="231">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>

@@ -14,7 +14,7 @@ Menu.prototype.render = function () {
     if (item instanceof Container) {
       ul.appendChild(item.render());
     }
-    if (item instanceof Submenu){
+    if (item instanceof SubMenu){
       li.appendChild(item.render());
     }
   });
